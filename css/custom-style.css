@@ -1,0 +1,386 @@
+/*========== Author Digital IT Institute (Saiful Islam Sobuj) ==========*/
+
+.row {
+    margin-right: 0px;
+    margin-left: -15px;
+}
+.panel-body {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.panel {
+    border-radius: 0px;
+}
+
+/*===============================
+
+		Job Apply page CSS
+
+======================================*/
+.cba-bar {
+    background-color: #eeeeee;
+}
+.header {
+    margin-bottom: 0px;
+}
+
+.page-content {
+	padding-top: 20px;
+    background-color: #eeeeee;
+}
+
+.boxed-s {
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16)!important;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16)!important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16)!important;
+    position: relative;
+    padding: 0px 20px 20px 20px;
+}
+.b-right {
+    float: right;
+    width: 300px;
+    margin-left: -300px;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+.soapp-wrap{ 
+	margin:20px 30px 0px 15px;
+	font-family: Open Sans, solaimanlipi;
+}
+.soapp-wrap .h-title{
+	font-size:18px;
+	margin:0px 0px 30px 0px;
+	font-weight: 600;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+}
+.soapp-wrap .h-title img{
+	margin-right: 10px;
+}
+.soapp-wrap .content{
+	background-color: #F9F9F9;
+	border-radius: 4px;
+	padding: 20px;
+}
+.soapp-wrap .jaguid {
+	padding: 12px 20px 12px 20px;
+	background-color: #FFF3CD;
+	border: 1px solid #FFEEBA;
+	color: #856404;
+	font-size: 14px;
+	border-radius: 4px;
+	text-align: center;
+	margin-bottom: 20px;
+}														
+.soapp-wrap .jacm{
+	color: #856404;
+	line-height: 19px;
+	margin-bottom: 4px;
+}
+.soapp-wrap .tdavail{
+	color: #E07721;
+	font-size: 12px;
+	line-height: 17px;
+}														
+.soapp-wrap .cinttip {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	margin-left: 5px;
+}
+.soapp-wrap .cinttip .cinttip-content {
+	visibility: hidden;
+	min-width: 220px;
+	background-color: #323232;
+	color: #fff;
+	text-align: center;															
+	border-radius:6px;
+	padding: 10px;
+	position: absolute;
+	z-index: 1;
+	bottom: 170%;
+	left: 0%;
+	margin-left: -103px;															
+}														
+.soapp-wrap .cinttip span.cinttip-content  {
+	font-size: 12px;
+	line-height: 17px;
+}
+.soapp-wrap .cinttip .cinttip-content::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -15px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: #323232 transparent transparent transparent;
+}
+.soapp-wrap .cinttip .show {
+	visibility: visible;
+	animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+	from {opacity: 0;} 
+	to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity:1 ;}
+}
+
+.soapp-wrap .u-info .voffset {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.no-pad-r {
+  padding-right: 0px;
+}
+.no-pad-l {
+  padding-left: 0px;
+}
+
+.soapp-wrap .u-info .s-b {
+	font-weight: 600;
+}
+.soapp-wrap .u-info .com-logo{
+	margin-bottom: 15px;
+}
+.exsal {
+    display: inline-flex;
+	align-items: center
+}
+.exsal span{
+    margin-left: 8px;
+}
+.exsal input[type="text"] {
+    width: auto;
+}
+
+.soapp-wrap .u-info .voffset:last-child {
+	margin-bottom: 0px;
+}
+
+.soapp-wrap .u-info hr{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+
+.soapp-wrap .u-info .btn-wrap .app-btn {
+	background-color: #38853C;/*#43A047; sony*/
+	border: 1px solid #43A047;
+	color: #fff;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+.soapp-wrap .u-info .btn-wrap .app-btn:hover {
+	background-color: #39873D;
+	border: 1px solid #39873D;
+}
+.soapp-wrap .u-info .btn-wrap .ccel-btn {
+	background-color: #FFFFFF;
+	border: 1px solid #DEDEDE;
+	color: #4D4D4D;
+	border-radius: 4px;	
+	padding: 10px 20px;
+}
+.soapp-wrap .u-info .btn-wrap .ccel-btn:hover {
+	background-color: #E4E4E4;
+	border: 1px solid #DEDEDE;
+}
+.soapp-wrap .u-info .btn-wrap .btn {
+    font-weight: 600;
+}
+
+.soapp-wrap .u-info .btn-wrap .btn:last-child {
+    margin-left: 10px;
+}
+.soapp-wrap .u-info .wrn-info{
+	text-align: center;
+}
+
+.soapp-wrap .u-info .wrn-info .tmp-msg-wrap{	
+	margin-bottom: 40px;	
+}
+.soapp-wrap .u-info .wrn-info .tmp-msg-wrap .tmp-msg{
+	text-align: left;
+	margin-bottom:10px;
+	line-height: 19px;
+}
+.soapp-wrap .u-info .wrn-info .tmp-msg-wrap .tmp-msg:last-child{
+	margin-bottom:0px; 
+}
+
+.soapp-wrap .u-info .img-wrap {
+    text-align: center;
+	font-size: 16px;
+}
+.soapp-wrap .u-info .img-wrap img {
+    margin: 10px auto 20px auto;
+}
+.soapp-wrap .u-info .title-msg {    
+	font-weight: 600;
+	line-height: 22px;
+}
+.soapp-wrap .u-info .des-msg {  
+	line-height: 22px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.soapp-wrap .u-info .addres-msg {  
+	line-height: 19px;
+	margin-top: 20px;
+}
+.soapp-wrap .u-info .dat-msg {  
+	line-height: 19px;
+	margin-top: 24px;
+	margin-bottom: 15px;
+}
+.soapp-wrap .u-info .act-wrapper {  
+	/*margin-top: 30px;*/
+}
+.soapp-wrap .u-info .act-wrapper .btn {
+    font-weight: 600;
+}
+.soapp-wrap .u-info .act-wrapper .vaappj-btn {
+	background-color: #616161;
+	border: 1px solid #616161;
+	color: #fff;
+	border-radius: 4px;
+	padding: 10px 22px;
+}
+.soapp-wrap .u-info .act-wrapper .vaappj-btn:hover {
+	background-color: #424242;;
+	border: 1px solid #424242;;
+}
+.soapp-wrap .u-info .act-wrapper .appguid-btn {
+	background-color: #FFFFFF;
+	border: 1px solid #DEDEDE;
+	color: #4D4D4D;
+	border-radius: 4px;	
+	padding: 10px 22px;
+}
+.soapp-wrap .u-info .act-wrapper .appguid-btn:hover {
+	background-color: #E4E4E4;
+	border: 1px solid #DEDEDE;
+}
+.soapp-wrap .u-info .act-wrapper .appguid-btn:last-child {
+    margin-left: 10px;
+}
+
+.soapp-wrap .u-info .hlp {
+    padding: 10px 7px 10px 7px;
+    background-color: #CCE5FF;
+    border: 1px solid #B8DAFF;
+    color: #004085;
+    font-size: 14px;
+	line-height: 19px;
+    border-radius: 4px;
+    margin: 20px 45px 0px 45px;
+    text-align: left;
+}
+.soapp-wrap .u-info .hlp a{
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	color: #004085;
+}
+.soapp-wrap .u-info .hlp a span{
+	text-decoration: underline;
+}
+.soapp-wrap .u-info .hlp a i{
+	text-decoration: none;
+	margin-left:3px;
+	font-size: 15px;
+}
+
+.soapp-wrap.bn{
+	font-size: 15px;
+}
+.soapp-wrap.bn .h-title{
+	font-size: 20px;
+}
+.soapp-wrap.bn .jacm {
+    font-size: 16px;
+}
+.soapp-wrap.bn .tdavail{
+    font-size: 14px;
+}
+.soapp-wrap.bn .cinttip span.cinttip-content{
+	font-size: 14px;
+}
+.soapp-wrap.bn .u-info .btn-wrap .btn, .soapp-wrap.bn .u-info .act-wrapper .btn {
+    font-size: 16px;
+}
+.soapp-wrap.bn .u-info .title-msg, .soapp-wrap.bn .u-info .des-msg,.soapp-wrap.bn .u-info .addres-msg, .soapp-wrap.bn .u-info .dat-msg, .soapp-wrap.bn .u-info .hlp{
+    font-size: 16px;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:767px)  {
+.soapp-wrap{ margin:20px 0px 0px 0px; font-family:Open Sans, solaimanlipi;}
+.soapp-wrap .content{
+	padding: 0px;
+}	
+.soapp-wrap .h-title{
+	display: inline-block;
+	vertical-align: middle;
+}
+	
+.soapp-wrap .u-info .voffset {
+	display: block;
+	margin-bottom: 10px;
+}
+.exsal {
+	display: block;
+    margin-top: 8px;
+}
+.exsal span{
+    margin-left: 0px;
+	margin-top: 5px;
+}
+.soapp-wrap .u-info .s-b {
+	margin-top: 5px;
+}
+.no-pad-r {
+	padding-right: 15px;
+}
+.no-pad-l {
+  padding-left: 15px;
+}
+.soapp-wrap .u-info .act-wrapper .appguid-btn:last-child {
+    margin-left: 0px;
+	margin-top: 10px;
+}
+.soapp-wrap .u-info .hlp {
+    margin: 20px 5px 0px 5px;
+}
+
+.box .box-cell {
+    display: table-cell;
+    padding: 0px!important;
+}
+
+
+
+
+
+
+
+
+
+

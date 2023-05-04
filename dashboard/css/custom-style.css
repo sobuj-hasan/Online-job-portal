@@ -1,0 +1,52 @@
+/* ------------------------------------------------------------
+
+  Custom style css Edit: Developer Digital IT Institute
+
+------------------------------------------------------------   */
+
+dl,
+ol,
+ul {
+  padding-left: 0;
+  font-size: 0.8rem;
+}
+.inner-content {
+  padding: 25px 0;
+  background: #f3f2f2;
+}
+.stretch-card > .card {
+  width: 100%;
+  min-width: 100%;
+  /*height: 100vh;*/
+}
+/* Search job.php page */
+.slider-wrap .input-group {
+  display: flex;
+}
+select.form-control:not([size]):not([multiple]),
+select.asColorPicker-input:not([size]):not([multiple]),
+.dataTables_wrapper select:not([size]):not([multiple]),
+.jsgrid .jsgrid-table .jsgrid-filter-row select:not([size]):not([multiple]),
+.select2-container--default
+  select.select2-selection--single:not([size]):not([multiple]),
+.select2-container--default
+  .select2-selection--single
+  select.select2-search__field:not([size]):not([multiple]),
+select.tt-hint:not([size]):not([multiple]),
+select.tt-query:not([size]):not([multiple]),
+select.typeahead:not([size]):not([multiple]) {
+  height: calc(3.25rem + 8px);
+}
+select.form-control:not([size]):not([multiple]), select.asColorPicker-input:not([size]):not([multiple]), .dataTables_wrapper select:not([size]):not([multiple]), .jsgrid .jsgrid-table .jsgrid-filter-row select:not([size]):not([multiple]), .select2-container--default
+  select.select2-selection--single:not([size]):not([multiple]), .select2-container--default
+  .select2-selection--single
+  select.select2-search__field:not([size]):not([multiple]), select.tt-hint:not([size]):not([multiple]), select.tt-query:not([size]):not([multiple]), select.typeahead:not([size]):not([multiple]) {
+    height: calc(2rem + 6px);
+}
+select.custome-select{
+    height: calc(3rem + 14px)!important;
+}
+.input-group .form-control {
+    border-radius: 0 !important;
+    height: 62px;
+}
