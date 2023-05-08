@@ -22,37 +22,35 @@ $page = "homepage";
 <!--slider start-->
 <?php include('banner.php') ?>
 
-<!--slider end--> 
-
+<!--HOW it work part er code --> 
  <div class="container" style="margin-top:40px; margin-bottom:40px;">
     <div class="heading-title">How it <span>works</span></div>
-    <div class="headTxt">eJobs featured jobs are shown here, You select the job according to your skill. Apply by clicking on & Apply Now If you have not created your CV at eJobs, create a CV </div>
+    <div class="headTxt">Online job portal featured jobs are shown here, You select the job according to your skill. Apply by clicking on & Apply Now If you have not created your CV at Online job portal, create a CV </div>
     <ul class="row works-service">
       <li class="col-md-4">
         <a href="dashboard/add-cv.php"><div class="worksIcon"><i class="fa fa-files-o" aria-hidden="true"></i></div></a>
         <h3>Create Your Resume</h3>
-        <p>eJobs is currently a Largest job site in Bangladesh, here you will find jobs according to your skills. To find the job of your choice from ejobs, create a account and add Resume.</p>
+        <p>Online job portal is currently a Largest job site in Bangladesh, here you will find jobs according to your skills. To find the job of your choice from Online job portal, create a account and add Resume.</p>
       </li>
       <li class="col-md-4">
         <a href="company/cjp-manage.php"><div class="worksIcon"><i class="fa fa-paper-plane" aria-hidden="true"></i></div></a>
         <h3>Post Your Jobs</h3>
-        <p>eJobs is currently a Largest job site in Bangladesh, If you want to give your organization's recruitment notice, create an account for your organization. We will contact and help you.</p>
+        <p>Online job portal is currently a Largest job site in Bangladesh, If you want to give your organization's recruitment notice, create an account for your organization. We will contact and help you.</p>
       </li>
       <li class="col-md-4">
         <a href="jobseeker-listing.php"><div class="worksIcon"><i class="fa fa-check-square-o" aria-hidden="true"></i></div></a>
         <h3>Hired Now</h3>
-        <p>You can choose the candidate of your choice from eJobs, we have <?php echo $cv_info->num_rows + $renge_cv; ?> + CV. Where you will get your candidate</p>
+        <p>You can choose the candidate of your choice from Online job portal, we have <?php echo $cv_info->num_rows + $renge_cv; ?> + CV. Where you will get your candidate</p>
       </li>
     </ul>
   </div>
+<!--Browse Job End-->
 
-<!--Browse Job End--> 
-
-  <!--featured jobs-->
+  <!--featured jobs er CODE-->
   <div class="featured-wrap">
     <div class="container">
       <div class="heading-title">Featured <span>Jobs</span></div>
-      <div class="headTxt">eJobs featured jobs are shown here, You select the job according to your skill. Apply by clicking on & Apply Now If you have not created your CV at eJobs, create a CV .</div>
+      <div class="headTxt">Online job portal featured jobs are shown here, You select the job according to your skill. Apply by clicking on & Apply Now If you have not created your CV at Online job portal, create a CV .</div>
       <ul class="row">
 
       <?php

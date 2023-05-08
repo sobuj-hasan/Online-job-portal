@@ -13,8 +13,8 @@
 <nav class="navbar horizontal-layout col-lg-12 col-12 p-0">
       <div class="container d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-top">
-          <a class="navbar-brand brand-logo" href="<?=http://localhost/online-job-portal?>/"><img src="../images/logo.png" alt="logo"/></a>
-          <a class="navbar-brand brand-logo-mini" href="index.php"><img src="../images/logo.png" alt="logo"/></a>
+          <a class="navbar-brand brand-logo" href="images/logo.png" alt="logo"/></a>
+          <!-- <a class="navbar-brand brand-logo-mini" href="index.php"><img src="../images/logo.png" alt="logo"/></a> -->
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center">
           <form class="search-field ml-auto" action="#">
@@ -69,7 +69,7 @@
         <div class="container">
           <ul class="nav page-navigation" style="background: #114059;">
             <li class="nav-item mega-menu">
-              <a href="<?=http://localhost/online-job-portal?>/company" class="nav-link"><i class="link-icon mdi mdi-message-outline"></i><span class="menu-title">Add New Company</span></a>
+              <a href="company" class="nav-link"><i class="link-icon mdi mdi-message-outline"></i><span class="menu-title">Add New Company</span></a>
             </li>
             <li class="nav-item">
               <a href="company-panel.php" class="nav-link"><i class="link-icon mdi mdi-home-outline "></i><span class="menu-title">Companie's Panel</span></a>

@@ -2,7 +2,7 @@
         <footer class="footer">
           <div class="container-fluid container clearfix">
             <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © <?php echo date('Y'); ?> <a href="#" target="_blank"></a>. All rights reserved.</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center text-light">Design & Developed by<i class="mdi mdi-heart text-danger"></i>eJobs</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center text-light">Design & Developed by, Software Development-2 Group-03</span>
           </div>
         </footer>
         <!-- partial -->

@@ -9,9 +9,8 @@ die('Unable to connect to database ['. $np2con->connect_error .']');
 exit();
 }
 $np2con->set_charset('utf8');
-// http://localhost/online-job-portal = 'https://ejobs.com.bd';
-http://localhost/online-job-portal = 'http://localhost/ejobs';
-$site_name = 'Ejob.com';
+
+$site_name = 'Online job portal';
 ////////////////////////////
 $ctime = date("Y-m-d H:i:s");
 $day = date('d');

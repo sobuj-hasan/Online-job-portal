@@ -28,30 +28,6 @@
 				
 				
 				$eror2 = array();
-
-				/* if(strlen($password) < 4){
-				$eror2[] = 'Password length must be of 4-15';
-				}
-				
-				if($password != $repeat){
-				$eror2[] = 'Password and confirm password don\'t match';
-				}
-				
-				if(strlen($_POST['Firstname']) < 4){
-				$eror2[] = 'Please Insert A valid Name!';
-				}
-				 */
-				 
-				 
-				 
-				/* //check dublitace account
-				$query_notifi = 'SELECT COUNT(user_id) as `num` FROM users WHERE user_email = "'.$emailaddress.'" AND user_type = "'.$account.'"';
-				$row = mysqli_fetch_array(mysqli_query($np2con,$query_notifi));
-				$bacck = $row['num'];
-				if($bacck > 0){
-				if($account == 1){$tp ='Freelancer';}else{$tp='Employer';}
-				$eror2[] = 'Email Already Registered as '.$tp.'';	
-				} */
 			
 				if(!empty($eror2)) /*check for an empty array, if there are errors, they're in this array (note the ! operator)*/
 				{
@@ -73,7 +49,7 @@
 								$sql = "INSERT INTO users(`user_first_name`, `user_last_name`, `user_pass`, `user_city`, `user_phone`) VALUES ('$Firstname','$Lastname','$password','$city','$phone')";
 								if (mysqli_query($np2con,$sql)) {
 
-									echo gen_notification('অভিনন্দন! আপনার রেজিস্ট্রেশন সফলভাবে সম্পন্ন হয়েছে ।','success');
+									echo gen_notification('Congratulations, Your account successfully createed !','success');
 									echo reloader('login.php',3500);
 									//sendSMS('IT VisionBD',$_POST['Number'],'Your O.T.P is '.$otp.'');
 						 			//echo '<script>
@@ -98,41 +74,41 @@
 			}
 			
 			?>
-      <div class="formint conForm">
-        <form method="post">
-          <div class="input-wrap">
-            <input type="text" name="Firstname" placeholder="First Name" class="form-control" required>
-          </div>
-          <div class="input-wrap">
-            <input type="text" name="Lastname" placeholder="Last Name" class="form-control" required>
-          </div>
-	   			<div class="input-wrap">
-            <input type="text" name="phone" placeholder="Phone Number or Email address" class="form-control" required>
-          </div>
-          <div class="input-wrap">
-            <select name="city" class="form-control" required>
-              <option>Select City </option>
-							  <option value="Dhaka">Dhaka</option>
-							  <option value="Chittagong">Chittagong</option>
-							  <option value="Sylhet">Sylhet</option>
-							  <option value="Rajshahi">Rajshahi</option>
-							  <option value="Khulna">Khulna </option>
-							  <option value="Barishal">Barishal</option>
-							  <option value="Rangpur">Rangpur </option>
-							  <option value="Mymenshingh">Mymenshingh</option>
-            </select>
-          </div>
-          <div class="input-wrap">
-            <input type="password" name="password" placeholder="Password" class="form-control" required>
-          </div>
-          <div class="input-wrap">
-            <input type="password" name="confirm_password" placeholder="Confirm Password" class="form-control" required>
-          </div>
-          <div class="sub-btn">
-            <input type="submit" name="sbutn"  class="sbutn" value="Register Now">
-          </div>
-          <div class="newuser"><i class="fa fa-user" aria-hidden="true"></i> New User? <a href="login.php">Login Here</a></div>
-        </form>	
+			<div class="formint conForm">
+				<form method="post">
+				<div class="input-wrap">
+					<input type="text" name="Firstname" placeholder="First Name" class="form-control" required>
+				</div>
+				<div class="input-wrap">
+					<input type="text" name="Lastname" placeholder="Last Name" class="form-control" required>
+				</div>
+						<div class="input-wrap">
+					<input type="text" name="phone" placeholder="Phone Number or Email address" class="form-control" required>
+				</div>
+				<div class="input-wrap">
+					<select name="city" class="form-control" required>
+					<option>Select City </option>
+									<option value="Dhaka">Dhaka</option>
+									<option value="Chittagong">Chittagong</option>
+									<option value="Sylhet">Sylhet</option>
+									<option value="Rajshahi">Rajshahi</option>
+									<option value="Khulna">Khulna </option>
+									<option value="Barishal">Barishal</option>
+									<option value="Rangpur">Rangpur </option>
+									<option value="Mymenshingh">Mymenshingh</option>
+					</select>
+				</div>
+				<div class="input-wrap">
+					<input type="password" name="password" placeholder="Password" class="form-control" required>
+				</div>
+				<div class="input-wrap">
+					<input type="password" name="confirm_password" placeholder="Confirm Password" class="form-control" required>
+				</div>
+				<div class="sub-btn">
+					<input type="submit" name="sbutn"  class="sbutn" value="Register Now">
+				</div>
+				<div class="newuser"><i class="fa fa-user" aria-hidden="true"></i> New User? <a href="login.php">Login Here</a></div>
+				</form>	
 			<?php } ?>  
       </div>
     </div>

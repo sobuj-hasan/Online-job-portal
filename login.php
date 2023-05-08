@@ -24,7 +24,7 @@
 						while($row = mysqli_fetch_assoc($resultus)){
 							$user_type = $row['user_type'];
 						
-						echo gen_notification('Logged successfully.','success');
+						echo gen_notification('Log in successfully.','success');
 						session_regenerate_id();
 						$_SESSION['ejob_signed_in'] = true;
 						$_SESSION['snm_ejob_user_id'] 	= $row['user_id'];
@@ -41,25 +41,25 @@
 				if(isset($_POST['user_phone'])){}else{
 				echo gen_notification('You are already logged in.','success');}
 			}else {
-			?>			
-					
-          <div class="formint conForm">
-            <form action="" method="post">
-              <div class="input-wrap">
-                <label class="input-group-addon">Email</label>
-                <input type="text" name="user_phone" placeholder="Phone number or email address" class="form-control">
-              </div>
-              <div class="input-wrap">
-                <label class="input-group-addon">Password <span><a href="#">Forgot Password?</a></span></label>
-                <input type="password" name="password" placeholder="Password" class="form-control">
-              </div>
-              <div class="sub-btn">
-                <input type="submit" name="submit" class="sbutn" value="Login">
-              </div>
-              <div class="newuser"><i class="fa fa-user" aria-hidden="true"></i> New User? <a href="register.php">Register Here</a></div>
-            </form>
-          </div>
-			<?php } ?>
+        ?>			
+            
+            <div class="formint conForm">
+              <form action="" method="post">
+                <div class="input-wrap">
+                  <label class="input-group-addon">Email</label>
+                  <input type="text" name="user_phone" placeholder="Phone number or email address" class="form-control">
+                </div>
+                <div class="input-wrap">
+                  <label class="input-group-addon">Password <span><a href="#">Forgot Password?</a></span></label>
+                  <input type="password" name="password" placeholder="Password" class="form-control">
+                </div>
+                <div class="sub-btn">
+                  <input type="submit" name="submit" class="sbutn" value="Login">
+                </div>
+                <div class="newuser"><i class="fa fa-user" aria-hidden="true"></i> New User? <a href="register.php">Register Here</a></div>
+              </form>
+            </div>
+        <?php } ?>
 		  
         </div>
       </div>

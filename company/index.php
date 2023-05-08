@@ -39,8 +39,8 @@
                        $ac_cmp_person_name = $_POST['ac_cmp_person_name'];
                        $ac_cmp_person_desig = $_POST['ac_cmp_person_desig'];
                        $ac_cmp_person_email = $_POST['ac_cmp_person_email'];
-                       $ac_cmp_phone = $_POST['ac_cmp_phone'];
-                       $ac_cmp_other_facility = $_POST['ac_cmp_other_facility'];
+                       return $ac_cmp_phone = $_POST['ac_cmp_phone'];
+                     //   $ac_cmp_other_facility = $_POST['ac_cmp_other_facility'];
                    
                        if($_FILES['ac_cmp_logo']['name']){
                          $user_image_name = $_FILES['ac_cmp_logo']['name'];
@@ -75,7 +75,7 @@
                    
                        $insert_query = "INSERT INTO `all_company`(`ac_author_id`, `ac_cmp_name`, `ac_cmp_name_bangla`, `ac_cmp_establish`, `ac_cmp_size`, `ac_cmp_country`, `ac_cmp_district`, `ac_cmp_thana`, `ac_cmp_address`, `ac_cmp_address_bangla`, `ac_cmp_category`, `ac_cmp_type`, `ac_cmp_discription`, `ac_cmp_trade_license`, `ac_cmp_rl_agency`, `ac_cmp_website_url`, `ac_cmp_person_name`, `ac_cmp_person_desig`, `ac_cmp_person_email`, `ac_cmp_phone`, `ac_cmp_logo`) VALUES ('$cmp_author_id', '$ac_cmp_name', '$ac_cmp_name_bangla', '$ac_cmp_establish', '$ac_cmp_size', '$ac_cmp_country', '$ac_cmp_district', '$ac_cmp_thana', '$ac_cmp_address', '$ac_cmp_address_bangla', '$ac_cmp_category', '$ac_cmp_type', '$ac_cmp_discription', '$ac_cmp_trade_license', '$ac_cmp_rl_agency', '$ac_cmp_website_url', '$ac_cmp_person_name', '$ac_cmp_person_desig', '$ac_cmp_person_email', '$ac_cmp_phone', '$image_new_name')";
                        if(mysqli_query($np2con, $insert_query)){
-                            echo gen_notification('Successfully Company Added, Pending admin Aproval.','success');
+                            echo gen_notification('Successfully Company Added.','success');
                             echo reloader('company/',3500);
                         }
                         else {

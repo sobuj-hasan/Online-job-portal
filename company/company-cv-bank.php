@@ -40,13 +40,13 @@ include ('header.php');
                       <div class="row">
                         <div class="col-md-2 col-sm-3 col-xs-12">
                           <div class="listImg">
-                            <img src="<?php echo http://localhost/online-job-portal ?>/dashboard/images/profile_image/<?=$single_droped_cv['ucv_picture']?>" alt="img not found">
+                            <img src="dashboard/images/profile_image/<?=$single_droped_cv['ucv_picture']?>" alt="img not found">
                           </div>
                         </div>
                         <div class="col-md-10 col-sm-9 col-xs-12">
                           <div class="row">
                             <div class="col-md-8">
-                              <h3><a href="<?=http://localhost/online-job-portal?>/cv-view.php?ucv_id=<?=$single_droped_cv['ucv_id']?>"><?=$single_droped_cv['ucv_user_name']?></a></h3>
+                              <h3><a href="cv-view.php?ucv_id=<?=$single_droped_cv['ucv_id']?>"><?=$single_droped_cv['ucv_user_name']?></a></h3>
                               <div class="designation"><?=$single_droped_cv['ucv_edu_achieve_one']?></div>
                               <ul class="featureInfo">
                                 <li><i class="fa fa-map-marker" aria-hidden="true"></i> <?=$single_droped_cv['ucv_present_address']?></li>
@@ -64,7 +64,7 @@ include ('header.php');
                             </div>
                             <div class="col-md-4">
                               <ul>
-                                <li class="click-btn apply"><a href="<?=http://localhost/online-job-portal?>/cv-view.php?ucv_id=<?=$single_droped_cv['ucv_id']?>"><i class="fa fa-file-text-o" aria-hidden="true"></i> Resume</a></li>
+                                <li class="click-btn apply"><a href="cv-view.php?ucv_id=<?=$single_droped_cv['ucv_id']?>"><i class="fa fa-file-text-o" aria-hidden="true"></i> Resume</a></li>
                                 <li class="click-btn apply cont"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
                                 <li class="click-btn apply"><a href="#">Bookmark Resume</a></li>
                               </ul>
@@ -119,11 +119,11 @@ include ('header.php');
                         <div class="row resumes">
                           <div class="col-md-3 col-sm-3 col-xs-2">
                             <div class="listImg">
-                              <img src="<?php echo http://localhost/online-job-portal ?>/dashboard/images/profile_image/<?=$single_droped_cv['ucv_picture']?>" alt="img not found">
+                              <img src="dashboard/images/profile_image/<?=$single_droped_cv['ucv_picture']?>" alt="img not found">
                             </div>
                           </div>
                           <div class="col-md-9 col-sm-9 col-xs-9">
-                            <div class="resumeName"><a href="<?=http://localhost/online-job-portal?>/cv-view.php?ucv_id=<?=$single_droped_cv['ucv_id']?>"><?=$single_droped_cv['ucv_user_name']?></a></div>
+                            <div class="resumeName"><a href="cv-view.php?ucv_id=<?=$single_droped_cv['ucv_id']?>"><?=$single_droped_cv['ucv_user_name']?></a></div>
                             <div class="desig"><i class="fa fa-tags" aria-hidden="true"></i> <?=$single_droped_cv['ucv_edu_achieve_one']?></div>
                             <div class="desig"><i class="fa fa-map-marker" aria-hidden="true"></i> <?=$single_droped_cv['ucv_present_address']?></div>
                           </div>

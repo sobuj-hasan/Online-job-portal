@@ -68,7 +68,7 @@ include ('header.php');
                                         <div class="listWrpService featured-wrap">
                                           <div class="row">
                                             <div class="col-md-2 col-sm-3 col-xs-3">
-                                              <div class="listImg"><img src="<?php echo http://localhost/online-job-portal;?>/company/images/company-img/<?=$cjp_single_info['ac_cmp_logo']?>" alt="company logo"></div>
+                                              <div class="listImg"><img src="company/images/company-img/<?=$cjp_single_info['ac_cmp_logo']?>" alt="company logo"></div>
                                             </div>
                                             <div class="col-md-10 col-sm-9 col-xs-9">
                                               <div class="row">

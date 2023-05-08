@@ -15,9 +15,7 @@
 					echo ''.gen_notification('You are already logged in.','success').'';
 				}else {
 					
-				?>	
-			  
-			  
+				?>
 			  <?php
 						
 					if(isset($_POST['sbutn'])){
@@ -33,31 +31,6 @@
 						
 						
 						$eror2 = array();
-						
-						
-						/* if(strlen($password) < 4){
-						$eror2[] = 'Password length must be of 4-15';
-						}
-						
-						if($password != $repeat){
-						$eror2[] = 'Password and confirm password don\'t match';
-						}
-						
-						if(strlen($_POST['Firstname']) < 4){
-						$eror2[] = 'Please Insert A valid Name!';
-						}
-						 */
-						 
-						 
-						 
-						/* //check dublitace account
-						$query_notifi = 'SELECT COUNT(cmp_id) as `num` FROM users WHERE cmp_email = "'.$emailaddress.'" AND cmp_type = "'.$account.'"';
-						$row = mysqli_fetch_array(mysqli_query($np2con,$query_notifi));
-						$bacck = $row['num'];
-						if($bacck > 0){
-						if($account == 1){$tp ='Freelancer';}else{$tp='Employer';}
-						$eror2[] = 'Email Already Registered as '.$tp.'';	
-						} */
 					
 							if(!empty($eror2)) /*check for an empty array, if there are errors, they're in this array (note the ! operator)*/
 							{

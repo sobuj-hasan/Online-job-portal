@@ -68,7 +68,7 @@ $page = "educationinfopage";
 
                                             if(mysqli_query($np2con, $update_ucv)){
                                                 echo gen_notification('Successfully Save Your Educational Qualifications. Fillup Next Steps', 'success');
-                                                echo reloader('dashboard/ucv-add-skill.php',2500);
+                                                echo reloader('ucv-add-skill.php',2500);
                                             }
                                             else {
                                                 echo gen_notification('This information save failed, Send currect information & tray again','danger');

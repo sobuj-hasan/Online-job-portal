@@ -8,7 +8,7 @@
       </div>
       <!--col-md-3 end-->
       <!--col-md-7 end-->
-      <div class="col-md-6 col-sm-9">
+      <div class="col-md-6 col-sm-9 m-auto">
         <!--Navegation start-->
         <div class="navigationwrape">
           <div class="navbar navbar-default" role="navigation">

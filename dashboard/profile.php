@@ -6,7 +6,7 @@
     $user_info = mysqli_fetch_assoc(mysqli_query($np2con, $select_query));
 
     if(isset($_POST['submit'])){
-    $user_name = htmlspecialchars($_POST['user_name']);
+    $user_name = 'rakibullah';
     $user_first_name = htmlspecialchars($_POST['user_first_name']);
     $user_last_name = htmlspecialchars($_POST['user_last_name']);
     $user_email = htmlspecialchars($_POST['user_email']);
@@ -23,10 +23,10 @@
       $accepted_extension = ['jpg', 'JPG', 'png', 'PNG', 'jpeg', 'JPEG', 'webp', 'WEBP', 'GIF', 'gif'];
       
       if(!in_array($image_extension, $accepted_extension)){
-          $_SESSION['image_extention_missing'] = "This image formate is not accepted!";
-          header("location: profile.php");
-          die();
-      } 
+        $_SESSION['image_extention_missing'] = "This image formate is not accepted!";
+        header("location: profile.php");
+        die();
+      }
       if($_FILES['user_photo']['size'] > 1000000){
           $_SESSION['user_photo'] = "This file size greater than 1 MB!";
           header("location: profile.php");
@@ -42,7 +42,7 @@
       $image_new_name = random_int(123123, 2345234) . "EJOBS" . "." . $image_extension;
 
 
-      $user_temp_location = $_FILES['user_photo']['tmp_name'];    
+      $user_temp_location = $_FILES['user_photo']['tmp_name'];   
       $new_location = "images/profile_image/" . $image_new_name;
       move_uploaded_file($user_temp_location, $new_location);
       // image uploade End

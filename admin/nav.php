@@ -7,7 +7,7 @@
 <nav class="navbar horizontal-layout col-lg-12 col-12 p-0">
   <div class="container d-flex flex-row">
     <div class="text-center navbar-brand-wrapper d-flex align-items-top">
-      <a class="navbar-brand brand-logo" href="<?=http://localhost/online-job-portal?>/"><img src="../images/logo.png" alt="logo"/></a>
+      <a class="navbar-brand brand-logo" href=""><img src="../images/logo.png" alt="logo"/></a>
     </div>
     <div class="navbar-menu-wrapper d-flex align-items-center">
       <form class="search-field ml-auto" action="#">
@@ -70,7 +70,7 @@
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
           ">
           <li class="nav-item">
-             <a href="<?=http://localhost/online-job-portal?>/admin/" class="nav-link"><i class="link-icon mdi mdi-home-outline "></i><span class="menu-title">eJobs</span></a>
+             <a href="admin/" class="nav-link"><i class="link-icon mdi mdi-home-outline "></i><span class="menu-title">eJobs</span></a>
           </li>
           <li class="nav-item mega-menu">
              <a href="total-users.php" class="nav-link"><i class="link-icon mdi mdi-heart"></i><span class="menu-title">User  Manage</span></a>

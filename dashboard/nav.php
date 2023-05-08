@@ -17,7 +17,7 @@
 <nav class="navbar horizontal-layout col-lg-12 col-12 p-0">
       <div class="container d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-top">
-          <a class="navbar-brand brand-logo" href="<?=http://localhost/online-job-portal?>/"><img src="../images/logo.png" alt="logo"/></a>
+          <a class="navbar-brand brand-logo" href=""><img src="../images/logo.png" alt="logo"/></a>
           <a class="navbar-brand brand-logo-mini" href="index.php"><img src="../images/logo.png" alt="logo"/></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center">
@@ -65,7 +65,7 @@
         <div class="container">
           <ul class="nav page-navigation" style="background: #28a745;">
             <li class="nav-item">
-              <a href="<?=http://localhost/online-job-portal?>/dashboard/" class="nav-link"><i class="link-icon mdi mdi-home-outline "></i><span class="menu-title">Home</span></a>
+              <a href="index.php" class="nav-link"><i class="link-icon mdi mdi-home-outline "></i><span class="menu-title">Home</span></a>
             </li>
             <li class="nav-item">
               <a href="profile.php" class="nav-link"><i class="link-icon mdi mdi-cart-plus"></i><span class="menu-title">My Profile</span></a>

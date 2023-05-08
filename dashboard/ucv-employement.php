@@ -72,7 +72,7 @@ $page = "employementpage";
                                             $update_ucv = "UPDATE `user_cv` SET `ucv_company_name_one`='$ucv_company_name_one',`ucv_designation_one`='$ucv_designation_one',`ucv_exp1_one`='$ucv_exp1_one',`ucv_exp2_one`='$ucv_exp2_one',`ucv_exp3_one`='$ucv_exp3_one',`ucv_start_period_month_one`='$ucv_start_period_month_one',`ucv_end_period_month_one`='$ucv_end_period_month_one',`ucv_current_work_one`='$ucv_current_work_one',`ucv_responsiblity_one`='$ucv_responsiblity_one',`ucv_company_name_two`='$ucv_company_name_two',`ucv_designation_two`='$ucv_designation_two',`ucv_exp1_two`='$ucv_exp1_two',`ucv_exp2_two`='$ucv_exp2_two',`ucv_exp3_two`='$ucv_exp3_two',`ucv_start_period_month_two`='$ucv_start_period_month_two',`ucv_end_period_month_two`='$ucv_end_period_month_two',`ucv_current_work_two`='$ucv_current_work_two',`ucv_responsiblity_two`='$ucv_responsiblity_two' WHERE ucv_user_id = '$auth_user_id'";
                                             if(mysqli_query($np2con, $update_ucv)){
                                                 echo gen_notification('Successfully Added Your Work Experience. Fillup Next Steps', 'success');
-                                                echo reloader('dashboard/ucv-photography.php',2500);
+                                                echo reloader('ucv-photography.php',2500);
                                             }
                                             else {
                                                 echo gen_notification('This information save failed, Send currect information & tray again','danger');
